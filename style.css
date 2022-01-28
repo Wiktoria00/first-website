@@ -1,0 +1,19 @@
+* {
+    color: black;
+    background-color: beige;
+}
+
+.info-text {
+    color: black;
+}
+
+#image {
+    height: 300px;
+    width: 300px;
+}
+
+.main {
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
