@@ -1,10 +1,17 @@
 * {
     color: black;
     background-color: beige;
+    margin: 10;
+    box-sizing: border-box;
 }
 
 .info-text {
     color: black;
+    padding: 20px;
+    border: 5px solid white;
+    width: 500px;
+    box-sizing: border-box;
+    margin: auto;
 }
 
 #image {
@@ -13,7 +20,37 @@
 }
 
 .main {
-    text-align: center;
+    
     font-family: "Times New Roman";
     font-size: 20px;
+    text-align:center;
+}
+.about{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+li {
+    float: left;
+    padding: 20px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:white;
 }
